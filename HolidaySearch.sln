@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaySearch", "HolidaySearch\HolidaySearch.csproj", "{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidaySearchTest", "HolidaySearchTest\HolidaySearchTest.csproj", "{DCC593A4-9F00-422E-893E-549A0320141A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518} = {FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7A98CA-12EF-4F58-AD55-5D5D98B2D518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC593A4-9F00-422E-893E-549A0320141A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC593A4-9F00-422E-893E-549A0320141A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC593A4-9F00-422E-893E-549A0320141A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC593A4-9F00-422E-893E-549A0320141A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {947B3AC7-403D-47BF-9360-9C3910F405CE}
+	EndGlobalSection
+EndGlobal
